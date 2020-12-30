@@ -1,3 +1,3 @@
 # test-github-repo
 
-Trial: 6
+Trial: 7
