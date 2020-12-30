@@ -3,6 +3,12 @@
     "Transform": "AWS::Serverless-2016-10-31",
     "Description": "Misconfigured AWS CloudFormation Template for Cloud Conformity **WARNING** This template creates AWS Resources in the AWS US-EAST-1 Region. You will be billed for the AWS resources used if you create a stack from this template. Please delete this CloudFormation Stack when no longer in use. For cost and billing purposes, all resources are tagged with Project=TrendMicro tags. Use AWS Resource Groups' tag filter to identify created resources.",
     "Parameters": {
+        "TrialNumber": {
+            "Type": "Number",
+            "Description": "Stand-in Git Diff parameter",
+            "ConstraintDescription": "must be a valid number",
+            "Default": 7
+        },
         "VpcId": {
             "Type": "AWS::EC2::VPC::Id",
             "Description": "VpcId of your existing Virtual Private Cloud (VPC)",
