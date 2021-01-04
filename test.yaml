@@ -5,3 +5,7 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       AccessControl: PublicRead
+Outputs:
+  S3Bucket:
+    Description: S3 Bucket Name
+    Value: !Ref S3Bucket
