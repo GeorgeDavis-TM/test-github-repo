@@ -7,5 +7,5 @@ Resources:
       AccessControl: PublicRead
 Outputs:
   S3Bucket:
-    Description: S3 Bucket Name
+    Description: S3 Bucket Name [Trial - 24]
     Value: !Ref S3Bucket
