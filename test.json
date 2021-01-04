@@ -7,7 +7,7 @@
             "Type": "Number",
             "Description": "Stand-in Git Diff parameter",
             "ConstraintDescription": "must be a valid number",
-            "Default": 13
+            "Default": 14
         },
         "VpcId": {
             "Type": "AWS::EC2::VPC::Id",
